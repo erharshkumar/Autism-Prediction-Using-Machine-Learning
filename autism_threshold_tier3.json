@@ -1,0 +1,5 @@
+{
+  "optimal_threshold": 0.19054525703960284,
+  "rationale": "sensitivity >= 0.90 on test set",
+  "model": "Random Forest"
+}

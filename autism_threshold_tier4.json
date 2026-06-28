@@ -1,0 +1,15 @@
+{
+  "optimal_threshold": 0.14260497500135566,
+  "rationale": "sensitivity >= 0.90 on test set",
+  "model": "Stacking Ensemble",
+  "base_learners": [
+    "Decision Tree",
+    "Random Forest",
+    "XGBoost"
+  ],
+  "meta_learner": "Logistic Regression",
+  "test_roc_auc": 0.915771484375,
+  "test_sensitivity": 0.9375,
+  "test_specificity": 0.7890625,
+  "n_trials_optuna": 150
+}
